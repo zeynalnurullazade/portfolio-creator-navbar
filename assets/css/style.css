@@ -100,7 +100,7 @@ margin-bottom: 40px;
     height:48px;
     background-color: #000;
     color:#fff;
-    /* padding: 15px; */
+
     
 }
 .intro-left-side a{
@@ -136,23 +136,68 @@ margin-bottom: 40px;
         padding-right: 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* INTROSECTION END */
+
+
+
+/* TRUSTED BY SECTION START */
+
+
+.trusted-by-section > h6 {
+/* background-color: red; */
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
+}
+
+.trusted-by-companies{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 77px;
+}
+
+@media(max-width:768px){
+    .trusted-by-company:nth-child(even) {
+display: none;
+    }
+    .trusted-by-company:not(:first-child) {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TRUSTED BY SECTION END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
