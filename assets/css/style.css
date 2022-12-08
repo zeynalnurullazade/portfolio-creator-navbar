@@ -1,4 +1,14 @@
+:root {
+    --pink-color:#FF5E69;
+}
+
+/* *{
+    box-sizing: border-box;
+}
+ */
+
 @import url('./reset.css');
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
     
@@ -169,24 +179,78 @@ display: none;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* TRUSTED BY SECTION END */
 
+/* SERVICES SECTION START */
 
+
+
+.services h6,h1{
+    text-align: center;
+  
+}
+
+
+.services{
+
+    padding-top: 100px;
+}
+ 
+
+
+ 
+
+ .services h6{
+    text-transform: uppercase;
+    color:var(--pink-color);
+font-size: 22px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 4px;
+
+}
+.services h1{
+  
+font-size: 54px;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 1px;
+
+
+}
+
+.services-cards-section{
+    display: flex;
+justify-content: space-around;
+padding-top: 50px;
+flex-wrap: wrap;
+}
+
+.service-card{
+    width:20%;
+    min-width: 250px;
+    /* background-color: teal; */
+    padding:20px;
+
+}
+
+ul {
+    list-style-type: square;
+    padding-left:0;
+    list-style-position: inside;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* SERVICES SECTION END */
 
 
 
