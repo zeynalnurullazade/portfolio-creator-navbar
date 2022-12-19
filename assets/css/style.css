@@ -242,19 +242,100 @@ ul {
 
 
 
-
-
-
-
-
-
-
-
 /* SERVICES SECTION END */
 
 
 
+/* PROJECTS SECTION START */
 
+.projects-section {
+    display: flex;  
+    flex-direction: column;
+    padding-left: 113px;
+    padding-top: 76px;  
+}
+
+.projects-section > h6{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+   color: #B16CEA;
+}
+.view-all-projects  h1{
+   font-weight: 700;
+   font-size: 54px;
+   margin-top: 15px;
+   margin-bottom: 40px;     
+   /* line-height: 59.4px;
+   letter-spacing: 1px; */
+   /* margin-top: 20px; */
+}
+
+.view-all-projects  button {
+ width: 201px;
+ height: 58px;
+ background-color: #000;
+ color: #fff;
+ cursor: pointer;
+/* margin-top: 34px; */
+}
+
+
+
+.view-all-projects {
+   display: flex;
+    justify-content: space-between;
+    padding-right: 142px;
+
+}
+
+.projects-cards{
+    display: flex;
+}
+
+.project-card {
+    min-width: 486px;
+    margin-right: 30px;
+
+}
+
+.project-card:nth-child(3) >img {
+
+width: 100%;
+}
+
+
+.project-card-bottom{
+    padding: 32px;
+    
+}
+
+.slider-btns{
+    align-self: flex-end;
+    padding-right: 112px;
+    margin-top: 26px;
+}
+
+.slider-btns button{
+    width: 54px;
+    height: 54px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROJECTS SECTION END */
 
 
 
