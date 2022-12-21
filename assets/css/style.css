@@ -293,13 +293,13 @@ ul {
 }
 
 .project-card {
-    min-width: 450px;
+    min-width: 400px;
     margin-right: 24px;
 
 }
 
 .project-card-top img {
-    width: 450px;
+    width: 400px;
 }
 
 
@@ -342,13 +342,13 @@ ul {
     padding-top: 26px;
 }
 
-@media(max-width:1510px) {
+@media(max-width:1410px) {
     .project-card:nth-child(3) {
         display: none;
     }
 }
 
-@media(max-width:1078px) {
+@media(max-width:978px) {
     .project-card:nth-child(2) {
         display: none;
     }
@@ -2058,7 +2058,9 @@ ul {
     padding-left: 113px;
     padding-bottom: 21px;
     flex-wrap: wrap;
+    
 }
+
 
 .footer p {
     color: #666666;
@@ -2076,6 +2078,7 @@ ul {
 .footer a:hover{
     text-decoration: underline;
 }
+
 @media(max-width:1000px){
     .footer{
         padding-left: 80px;
@@ -2116,6 +2119,7 @@ ul {
     .footer a{
         font-size: 12px;
         padding-left: 3px;
+       
     }
     }
     @media(max-width:389px){
